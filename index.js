@@ -28,7 +28,7 @@ require("./src/startup/db")();
 app.use("/public", express.static("public"));
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Visrava");
+  res.send("Welcome to Node backend");
 });
 
 // listen for requests
